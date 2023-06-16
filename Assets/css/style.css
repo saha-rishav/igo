@@ -1,0 +1,485 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    /* overflow-x: hidden; */
+}
+
+.navbar .navbar-collapse .navbar-nav .nav-item{
+    margin: 0 10px;
+}
+#navbarNav .navbar-nav .nav-item .nav-link{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+#navbarNav .navbar-nav .nav-item .active{
+    border-bottom: 3px solid black;
+}
+#navbarNav .navbar-nav .nav-item :hover{
+    border-bottom: 3px solid black;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+.bg-white{
+    background-color: white;
+    box-shadow: 0px -5px 25px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.logo img{
+    width: 70%;
+}
+.navbar .btn{
+    border-radius: 30px;
+    padding: 6px 30px;
+}
+/* #navbarNav ul li {
+    font-size:16px;
+    font-weight: 500;
+} */
+.separator{
+    position: absolute;
+    background: #6ECC02;
+    height: 3px;
+    width: 8%;
+    left: 46%; 
+}
+.nav-item .btn a{
+    color: white;
+    text-decoration: none;
+}
+/* Banner Section */
+#banner{
+    margin-top: 95px;
+}
+#banner .leftBlock{
+    margin-top: 115px;
+}
+#banner .leftBlock h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+#banner .leftBlock p{
+    margin-top: 25px;
+    font-size: 16px;
+    line-height: 35px;
+}
+#banner .button{
+    margin-top: 30px;
+}
+.button .download{
+    border-radius: 30px;
+    padding: 10px 20px;
+    box-shadow: 1px 2px 6px rgb(0 0 0 / 60%);
+    background: #6ECC02;
+}
+.button .sign-up{
+    border-radius: 30px;
+    padding: 10px 15px;
+    box-shadow: 1px 2px 6px rgb(0 0 0 / 60%);
+    background: black;
+    margin-left: 10px
+}
+.button a{
+    color: white;
+    text-decoration: none;
+}
+#banner .rightBlock img{
+    height: 80vh;
+    width: 119%;
+}
+/* End Banner Section */
+
+/* About Us */
+#aboutUs{
+    padding-top: 100px;
+}
+#aboutUs img{
+    height: 100vh ;
+    width: 90%;
+}
+#aboutUs .rightBlock{
+    margin-top: 125px;
+}
+#aboutUs .rightBlock h2{
+    font-weight: 600;
+}
+#aboutUs .rightBlock p{
+    padding-right: 75px;
+    font-size: 16px;
+    line-height: 30px;
+}
+#aboutUs .rightBlock .about-text{
+    margin-top: 25px;
+}
+#aboutUs .more{
+    margin-top: 15px;
+    border-radius: 30px;
+    padding: 10px 20px;
+    box-shadow: 1px 2px 6px rgb(0 0 0 / 60%);
+    background: #6ECC02;
+}
+#aboutUs .more a{
+    color: white;
+    text-decoration: none;
+}
+
+/* End About Us Section */
+
+
+/* Service section */
+#services{
+    margin-top: 35px;
+}
+#services h2{
+    font-weight: 600;
+}
+#services h4{
+    margin-top: 30px;
+    font-weight: 500;
+}
+#services h5{
+    margin-top: 35px;
+    font-weight: 600;
+}
+#services .leftBlock{
+    text-align: center;
+}
+#services .centerBlock{
+    text-align: center;
+}
+#services .rightBlock{
+    text-align: center;
+}
+#services img{
+    height: 150px;
+}
+#services p{
+    font-size: 14px;
+    text-align: center;
+    padding: 5px;
+}
+#services .captain{
+    display: flex;
+    justify-content: center;
+}
+#services .leftBlock1{
+    margin-top: 45px;
+    text-align: center;
+    padding-right: 30px;
+}
+#services .rightBlock1{
+    margin-top: 45px;
+    text-align: center;
+    padding-left: 30px;
+}
+/* #services .leftBlock1 p{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+#services .rightBlock1 p{   
+    padding-right: 50px;
+    padding-left: 50px;
+} */
+/* end service section */
+
+
+/* business section */
+#business{
+    margin-top: 35px;
+}
+#business .leftBlock{
+    margin-top: 175px;
+}
+#business .leftBlock h2{
+    font-weight: 600;
+}
+#business .leftBlock p{
+    /* margin-top: 25px; */
+    font-size: 17px;
+    line-height: 30px;
+}
+#business .rightBlock img{
+    height: 83vh;
+    width: 119%;
+}
+/* end business section */
+
+#download .leftBlock img{
+    height: 90vh;
+}
+#download .rightBlock{
+    margin-top: 195px;
+}
+#download .rightBlock h1{
+    padding-left: 50px;
+    line-height: 55px;
+}
+#download .rightBlock img{
+    padding-left: 50px;
+    padding-top: 20px;
+}
+/* footer Section */
+.footer{
+    width: 100%;
+    background: black;
+    color: white;
+}
+#footer .leftBox, .centerBox1, .centerBox2, .rightBox{
+    margin-top: 35px;
+}
+#footer .centerBox1, .centerBox2 p{
+    font-size: 13px;
+}
+.leftBox p{
+    font-size: 12px;
+}
+#footer .centerBox1{
+    padding-left: 75px;
+}
+#footer .centerBox1 a,
+#footer .centerBox2 a{
+    text-decoration: none;
+    color: white;
+}
+#footer .leftBox img{
+    height: 35px;
+    margin-left: 35px;
+}
+
+#footer-text p{
+    font-size: 12px;
+}
+#footer-text a{
+    text-decoration: none;
+    color: #6ECC02;
+}
+.social-links a i{
+    font-size: 22px;
+    color: white;
+    transition: all 0.4s;
+}
+.social-links a i:hover{
+    /* color: #6ECC02; */
+    transform: scale(1.1);
+}
+.rightBox form input{
+    border-radius: 10px;
+    padding: 6px;
+    font-size: 13px;
+}
+.rightBox .btn{
+    height: 35px;
+    background: white;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+#contact{
+    padding-top: 100px;
+    text-align: center;
+    justify-content: center;
+}
+#contact form{ 
+    margin: 0 auto; 
+    width:435px;
+}
+#contact h2{
+    font-weight: 600;
+}
+#contact p{
+    font-size: 15px;
+    font-weight: 500;
+}
+#contact .submit{
+    margin-top: 10px;
+    border-radius: 30px;
+    padding: 12px 50px;
+    box-shadow: 1px 2px 6px rgb(0 0 0 / 60%);
+    background: black;
+    transition: all 0.3s;
+}
+#contact .submit:hover{
+    background: #6ECC02;
+}
+#contact a{
+    text-decoration: none;
+    color: white;
+}
+#message{
+    resize: none;
+}
+
+#career{
+    margin-top: 100px;
+}
+#career #text a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #0c0b09;
+}
+#career .leftBlock h1{
+    padding-top: 65px;
+    font-size: 36px;
+    font-weight: 600;
+}
+#career .leftBlock p{
+    margin-top: 25px;
+    font-size: 16px;
+    line-height: 30px;
+}
+#career .rightBlock img{
+    width: 100%;
+    height: 450px;
+}
+#career-life{
+    margin-top: 75px;
+}
+#career-life .leftBlock img{
+    height: 380px;
+}
+#career-life .rightBlock h2{
+    margin-top: 35px;
+    font-weight: 600;
+}
+#career-life .rightBlock p{
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 30px;
+}
+#career-life .opening-btn{
+    border-radius: 30px;
+    padding: 10px 20px;
+    box-shadow: 1px 2px 6px rgb(0 0 0 / 60%);
+    background: black;
+    color: white;
+}
+#career-life a{
+    color: white;
+    text-decoration: none;
+}
+
+#career-work{
+    margin-top: 100px;
+}
+#career-work .leftBlock,
+ #career-work .centerBlock,
+  #career-work .rightBlock{
+    text-align: center;
+    margin-bottom: 50px;
+}
+#career-work p{
+    margin-top: 15px;
+}
+/* #career-work .imgBlock{
+    text-align: center;
+}
+#career-work .imgBlock img{
+    height: 250px;
+} */
+
+.image-slider .imgBlock img{
+    height: 250px;
+    width: 100%;
+    padding: 0 10px;
+}
+
+#testimonial{
+    margin-top: 130px;
+}
+#testimonial .card{
+    background-color: rgba(255, 255, 233, 0.411);
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 2px 4px 6px rgb(0 0 0 / 20%);
+    margin: 5px 15px;
+}
+#testimonial i{
+    font-size: 50px;
+    position: absolute;
+    left: 88%;
+    color: rgba(1, 121, 11, 0.397);
+    font-style: italic;
+}
+.inner-card{
+    padding-left: 25px;
+}
+.inner-card p{
+    padding-top: 35px;
+}
+.inner-body h6{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.desc-text{
+    font-size: 16px;
+    padding-right: 50px;
+    font-style: italic;
+}
+.inner-body img{
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+}
+.inner-body h6{
+    padding-top: 15px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.inner-body h6 span{
+    font-size: 13px;
+    font-weight: 400;
+}
+/* .inner-body{
+    text-align: right;
+} */
+/* .inner-body p{
+    padding-top: 15px;
+    padding-left: 170px;
+} */
+/* .inner-body img{
+    padding-left: 15px;
+} */
+
+
+#position{
+    padding-top: 100px;
+}
+#position a{
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+    /* text-decoration: none; */
+}
+
+
+#jobs{
+    margin-top: 115px;
+}
+#jobs #text a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #0c0b09;
+}
+#jobs .card{
+    margin-top: 25px;
+    box-shadow: 4px 4px 8px 2px rgb(0,0,0,0.2);
+}
+#jobs .card-body h2{
+    color: black;
+}
+#jobs .card-body{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#jobs .card-body h6{
+    font-weight: 700;
+}
+#jobs #text{
+    font-size: 18px;
+}

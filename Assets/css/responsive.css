@@ -1,0 +1,349 @@
+@media (max-width: 767.98px){
+    .separator {
+        width: 25%;
+        left: 38%;;
+    }
+    .navbar{
+        background: white;
+    }
+    .navbar .btn {
+        display: none;
+    }
+    #banner h1{
+        margin-top: 15px;
+        
+    }
+    #banner .leftBlock{
+        margin-top: 15px;
+    }
+    #banner .leftBlock h1 {
+        font-weight: 600;
+        font-size: 23px;
+        padding-left: 5px;
+    }
+    #banner .leftBlock p {
+        font-size: 16px;
+        text-align: justify;
+        line-height: normal;
+        padding-left: 5px;
+        padding-right: 30px;
+    }
+    #banner .rightBlock img{
+        /* margin-top: 35px; */
+        height: 36vh;
+        width: 102%;
+    }
+    #banner .button {
+        padding-left: 5px;
+    }
+    #aboutUs{
+        padding-top: 0;
+    }
+    #aboutUs img{
+        margin-top: 85px;
+        height: 50vh;
+        width: 100%;
+        margin-left: -12px;
+    }
+    #aboutUs .rightBlock{
+        margin-top: 30px;
+    }
+    #aboutUs .rightBlock h2 {
+        padding-left: 5px;
+    }
+    #aboutUs .rightBlock p{
+        padding-left: 5px;
+        padding-right: 30px;
+        font-size: 16px;
+        text-align: justify;
+        line-height: normal;
+    }
+    #services .captain{
+        flex-direction: column;
+    }
+    #services .leftBlock{
+        margin-bottom: 20px;
+    }
+    #services .centerBlock{
+        margin-bottom: 20px;
+    }
+    #services .leftBlock1{
+        margin-bottom: 20px;
+        padding-right: 0px;
+    }
+    #services .rightBlock1 {
+        margin-top: 20px;
+        padding-left: 0px;
+    }
+    #services .leftBlock1 p{
+        padding-right: 1px;
+        padding-left: 1px;
+    }
+    #services .rightBlock1 p{   
+        padding-right: 1px;
+        padding-left: 1px;
+    }
+    #services{
+        margin-top: 100px;
+    }
+    /* #services h4::after {
+        position: absolute;
+        top: 30px;
+        left: 105px;
+        content: "";
+        height: 2px;
+        width: 180px;
+        background-color: #0f892c;
+    } */
+    #business .leftBlock{
+        margin-top: 35px;
+    }
+    #business .rightBlock img{
+        height: 36vh;
+        width: 102%;
+    }
+    .business-main{
+        margin-top: 25px;
+    }
+    #business .leftBlock h2 {
+        padding-left: 5px;
+    }
+    #business .leftBlock p{
+        /* text-align: justify; */
+        font-size: 16px;
+        padding-right: 27px;
+        padding-left: 5px;
+        line-height: normal;
+    }
+    #download .leftBlock img{
+        /* margin-top: 75px; */
+        height: 42vh;
+        width: 100%;
+        margin-top: 20px;
+        margin-left: -12px;
+    }
+    #download .rightBlock {
+        margin-top: 75px;
+    }
+    #download .rightBlock h1 {
+        font-size: 32px;
+        padding-left: 0px;
+        margin-top: 15px;
+        line-height: 40px;
+    }
+    #download .rightBlock img {
+        padding-left: 0px;
+        padding-top: 15px;
+        height: 50px;
+    }
+    #footer .leftBox, .centerBox1, .centerBox2, .rightBox{
+        margin-top: 0px;
+    }
+    .centerBox1{
+        margin-top: 12px;
+    }
+    .centerBox2{
+        margin-top:12px ;
+    }
+    #footer .centerBox1, .centerBox2 p{
+        font-size: 13px;
+    }
+    #footer .leftBox{
+        padding-top: 15px;
+    }
+    #footer .leftBox img {
+        height: 35px;
+        margin-left: 37px;
+    }
+    #footer .centerBox1 {
+        padding-left: 13px;
+    }
+    #footer .rightBox{
+        padding-left: 13px;
+    }
+    #footer-text p{
+        font-size: 12px;
+        text-align: center;
+    }
+    #footer .rightBox form input{
+        width: 250px;
+    }
+    /* #contact{
+        padding-top: 50px;
+    } */
+    #contact form{ 
+        margin: 0 auto; 
+        width: auto;
+    }
+    #contact .submit{
+        background: #6ECC02;
+    }
+
+    #career .leftBlock h1 {
+        font-size: 30px;
+        padding-top: 35px;
+    }
+    #career .rightBlock img {
+        width: 100%;
+        height: unset;
+    }
+
+    #career-life .rightBlock h2 {
+        font-size: 32px;
+    }
+    #career-life .leftBlock img {
+        margin-top: 25px;
+        width: 100%;
+        height: auto;
+    }
+
+    #career-life .opening-btn {
+        margin-bottom: 15px;
+    }
+    #career-work .leftBlock img,
+    #career-work .centerBlock img,
+    #career-work .rightBlock img{
+        height: 100px;
+    }
+
+    #position .position{
+        text-align: center;
+    }
+
+    #testimonial {
+        margin-top: 130px;
+    }
+    #testimonial i {
+        left: 80%;
+    }
+    .card{
+        margin-bottom: 17px;
+    }
+    .inner-card {
+        padding-left: 16px;
+    }
+    .inner-card p {
+        font-size: 14px;
+    }
+
+    /* SLiCK */
+    .slick-prev
+    {
+        top: 112%;
+        left: 44%;
+    }
+    .slick-next
+    {
+        top: 112%;
+        right: 44%;
+    }
+    .slick-dots
+    {
+        bottom: -70px;
+    }
+    .slick-prev:before,
+    .slick-next:before
+    {
+        color: rgba(6, 94, 60, 0.801);
+    }
+}
+
+/*`lg` applies to medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+    .navbar .btn {
+        display: none;
+    }
+    .navbar{
+        background: white;
+    }
+    #banner .leftBlock {
+        margin-top: 0px;
+    }
+    #banner .rightBlock img {
+        height: auto;
+        width: 100%;
+        margin-left: 10px;
+    }
+    .button .sign-up {
+        margin-left: 5px;
+    }
+    #aboutUs {
+        margin-top: 60px;
+    }
+    #aboutUs img {
+        height: auto;
+        width: 100%;
+        margin-left: -10px;
+    }
+    #aboutUs .rightBlock {
+        margin-top: 0px;
+    }
+    #aboutUs .rightBlock p {
+        padding-right: 10px;
+        font-size: 16px;
+        line-height: normal;
+        text-align: justify;
+    }
+    #business .leftBlock {
+        margin-top: 0px;
+    }
+    #business .rightBlock img {
+        height: auto;
+        width: 100%;
+        margin-left: 10px;
+    }
+     #download{
+        margin-top: 15px;
+    }
+    #download .leftBlock img {
+        height: auto;
+        width: 100%;
+        margin-left: -11px;
+    }
+    #download{
+        margin-top: 75px;
+    }
+    #download .rightBlock {
+        margin-top: 0px;
+    }
+    #download .rightBlock h1 {
+        padding-left: 0px;
+        line-height: normal;
+        font-size: 32px;
+        margin-top: 75px;
+    }
+    #download .rightBlock img {
+        padding-left: 0px;
+        padding-top: 20px;
+        width: 150px;
+        height: auto;
+    }
+    #contact {
+        margin-top: 10px;
+    }
+    .social-links a i {
+        font-size: 18px;
+    }
+    #career .leftBlock h1 {
+        padding-top: 42px;
+        font-size: 24px;
+    }
+    #career .rightBlock img {
+        height: auto;
+    }
+    #career-life .leftBlock img {
+        height: 275px;
+    }
+    #career-life .rightBlock h2 {
+        margin-top: 0px;
+    }
+    #career-life .rightBlock p {
+        margin-top: 10px;
+        font-size: 14px;
+        line-height: 26px;
+    }
+    #testimonial i{
+        left: 80%;
+    }
+
+}
